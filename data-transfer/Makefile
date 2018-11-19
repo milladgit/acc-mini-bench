@@ -1,4 +1,4 @@
 
 all:
-	pgcc -w -mp -acc -ta=nvidia transfer.c -o transfer
+	pgcc -w -mp -acc -ta=nvidia:cc50,pinned transfer.c -o transfer
 
